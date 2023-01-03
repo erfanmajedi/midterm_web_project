@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <!-- tab's icon and title set -->
+    <head>
+        <link rel="icon" href="tab icon.png">
+        <title>
+            ErfanHub
+        </title>
+        <!-- import css to html -->
+        <link rel="stylesheet" href= "index.css">
+    </head>
+    <!-- set a background -->
+    <body background="background.png">
+        <!-- making a logo for our website -->
+        <img src="github logo.png", alt="no icon!">
+        <!-- write a heading for welcome -->
+        <h1> 
+            Welcome To Github
+            <br>
+            I'm The Owner
+        </h1>
+        <!-- the general rectangle -->
+        <div class="middle_rectangle">
+            <!-- the personal information rectangle which is the left one -->
+            <div class=" personal">
+                <!-- here we span the profile image of the person -->
+                <span>
+                    <img id="profile_img" src="Personal Photo.jpg" alt="profile_image">
+                <!-- bio of the person -->
+                <div class="bio">
+                    <p id="bio_text">
+                        Hello I'm Erfan
+                        <br> 
+                        Computer Engineering in AUT
+                    </p>
+                </div>
+                <!-- information about the user -->
+                <div class="information">
+                    <!-- his/her name -->
+                    <p id = "user">
+                        Erfan Majedi
+                    </p>
+                    <!-- his/her blog -->
+                    <a href="https://github.com/erfanmajedi" id = "url">
+                        "https://github.com/erfanmajedi"
+                    </a>
+                    <!-- his/her location -->
+                    <p id = "loc">
+                        Rasht/Tehran, Iran
+                    </p>
+                </div>
+                </span>
+            </div>
+            <!-- search box which we search github users and is the right rectangle -->
+            <div class="search_id">
+                <!-- a box for search -->
+                <input type="text" id="searchtext" placeholder="Search Your Desired ID...">
+                <!-- submit button -->
+                <button type="button" id= "searchbutton" onclick="clickFunc()">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
+<!-- importing js code to html -->
+<script src = "index.js">
+</script>

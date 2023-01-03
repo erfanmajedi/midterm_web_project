@@ -1,0 +1,124 @@
+/* display of h1 is inline block which makes it come beside to the website logo */
+/* its color is white */
+/* we set left margin 25 pixel which to adjust the position of the h1 */
+h1{
+    display: inline-block;
+    color : white;
+    margin-left: 25px;
+    /* bottom: -20px; */
+}
+
+/* its positioning is relative and for making the rectangle's corner softer we put border radius 15 pixel
+border is black and because we wanted in the center of the website we put margin left and right auto
+we set paddding left and top to adjust it. the background color is white and we set a shape with 20cm as width and 
+15 cm for height and we set transparency 0.5 */
+.middle_rectangle{
+    position: relative;
+    border-radius: 15px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-top: 100px;
+    background-color: white;
+    width: 20cm;
+    height: 15cm;
+    opacity: 0.5;
+}
+/* this class positioning is also relative we set the border radius 15 pixel and a solid one pixel border
+then we made the border black the background is whitesmoke to present better and color of text is black too
+we shaped this rectangle which the width is 12cm and height is 8cm and we set the transparency one  */
+.personal{
+    position: relative;
+    /* top: 200px;
+    left: 60px; */
+    border-radius: 15px;
+    border: 1px solid;
+    border-color:black;
+    background-color: whitesmoke;
+    color: black;
+    width: 12cm;
+    height: 8cm;
+    opacity: 1;
+}
+/* because we don't want the right rectangle's details become faded we used span and set the opocity one  */
+span{
+    opacity: 1;
+    width: 200px;
+    height: 50px;
+}
+/* this class belongs to profile image , its position is relative and we set top and left 20 pixels
+here again we have a border radius which is 15 pixel and max width and height for the profile picture */
+img{
+    position: relative;
+    top: 20px;
+    left:20px;
+    border-radius: 15px;
+    max-width: 3cm;
+    max-height: 4cm; 
+    
+}
+/* this is the bio div css which its position is absolute we set top 150 pixel and
+left 20 pixel to make it come exactly under the profile picture. note that the length of width is
+fit content and its height is 2cm */
+.bio{
+    position: absolute;
+    top:150px;
+    left: 20px;
+    width: fit-content;
+    height: 2cm;
+    /* left:25px; */
+    color:black;
+}
+/* this the information div which is relative positioning we put the top 40% of its last absolute position
+and bottom 30% then we set a margin right 4cm for cases which the length of content is too long
+width here is fit content and font size is set to small */
+.information{
+    position: relative;
+    left: 40%;
+    bottom: 30%;
+    margin-right: 4cm;
+    width: fit-content;
+    font-size: small;
+}
+/* this the search id rectangle (the right one) which is abssolute positioned and it has a border radius of 15 pixels and 
+we have a border of 1px and it is solid and its color is black. for position it correctly we set
+left 15cm and bottom 7cm and the background color is whitesmoke for better presentation
+width and height of it is set and the transparency is one */
+.search_id{
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color:black;
+    left: 15cm;
+    bottom : 7cm;
+    background-color: whitesmoke;
+    color: black;
+    width: 5cm;
+    height: 8cm;
+    opacity: 1;
+}
+
+/* here we have the search box and text css. we have a 1 pixel border which is solid and a border radius of 5 pixel
+and a left margin to set in the center of thr rectangle and a top for pose it correctly */
+.search_id input[type="text"]{
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 6px;
+    top: +110px;
+   
+}
+
+/* here we have the submit button which is relative to input search box. it has a 1 pixel
+border and it is solid . again like the search box we have border radius and left margin anf top */
+.search_id button{
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 70px;
+    top: +150px;
+}
+
+
+
